@@ -1,3 +1,5 @@
+# IMPORTANT : This example of singleton is not thread-safe
+
 class Borg:
     """The Borg Design pattern"""
     _shared_data = {} #Attribute Dictionary
